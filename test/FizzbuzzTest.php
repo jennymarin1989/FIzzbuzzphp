@@ -28,6 +28,12 @@
 
         }
 
+        public function testPrint()
+        {
+            $result = $this->fizzbuzz->Print(6);
+            $this->assertEquals([ 1, 2,"fizz", 4,"buzz","fizz"]);
+        }
+
 
 
     }
