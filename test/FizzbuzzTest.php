@@ -12,6 +12,10 @@
         {
             $this->fizzbuzz = new Fizzbuzz();
         }
+        protected function tearDown()
+        {
+            $this->fizzbuzz = NULL;
+        }
 
         public function testFizz()
         {
