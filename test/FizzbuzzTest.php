@@ -17,7 +17,10 @@
         {
             $result = $this->fizzbuzz->fizz(3);
             $this->assertEquals("fizz", $result);
+            $result = $this->fizzbuzz->fizz(5);
+            $this->assertEquals("buzz", $result);
         }
+
 
 
     }
