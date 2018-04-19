@@ -8,6 +8,8 @@
                return "fizz";
            } elseif($a % 5 == 0){
                return "buzz";
+           } elseif($a % 15 == 0){
+               return "fizzbuzz";
            }
         }
     }
